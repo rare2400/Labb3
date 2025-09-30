@@ -46,7 +46,6 @@ namespace guestbook
                         catch (Exception)
                         {
                             Console.WriteLine("Fel: Namn och meddelande måste fyllas i. Tryck på valfri tangent för att fortsätta...");
-                            Console.ReadKey();
                         }
 
                         Console.ReadKey();
